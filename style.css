@@ -1,0 +1,29 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > * {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding-block: 1rem;
+}
+
+.botoes * {
+  margin-inline: 1rem;
+  min-width: 10rem;
+  min-height: 2rem;
+}
+
+.imagem {
+  display: none;
+}
